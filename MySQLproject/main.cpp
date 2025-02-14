@@ -86,7 +86,7 @@ public:
         try
         {
             sql::Driver* driver = sql::mysql::get_mysql_driver_instance();
-            con = driver->connect("tcp://127.0.0.1:3306", "root", "Thisisryuk12");
+            con = driver->connect("tcp://127.0.0.1:3306", "root", "YOUr_PASSWORD");
             con->setSchema("banking_system");
         }
         catch (sql::SQLException& e)
